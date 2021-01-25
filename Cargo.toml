@@ -1,0 +1,11 @@
+[package]
+name = "rss_notify"
+version = "0.1.0"
+authors = ["peterkov <peteczz@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+atom_syndication = "0.9"
+config = "0.10"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
